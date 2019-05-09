@@ -1,9 +1,18 @@
 {
-    "name": "moneo/authorization",
+    "name": "moneo/laravel4-authorization",
+    "license": "MIT",
     "authors": [
         {
             "name": "Mehmet Ali Cücen",
             "email": "mehmet.ali@itsmoneo.com"
         }
-    ]
+    ],
+    "autoload": {
+        "psr-4": {
+            "Moneo\\Authorization\\": "src/"
+        }
+    },
+    "require-dev": {
+        "illuminate/container": "^4.2"
+    }
 }
