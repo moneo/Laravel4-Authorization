@@ -6,9 +6,11 @@ This package adds ability to use Policies in Laravel 4.
 
 Install as dependency:
 
-  composer require moneo/laravel4-authorization
+```bash
+composer require moneo/laravel4-authorization
+```
   
-Generate a service provider for your application, as in Laravel 5.x in `app/Providers/AuthServiceProvider.php`
+Create a service provider for your application, as in Laravel 5.x in `app/Providers/AuthServiceProvider.php`
 
 ```php
 <?php
