@@ -95,6 +95,8 @@ class UserPolicy
 
 ## To-do:
 
-[ ] Policy generator command
-[ ] Vendor publisher
-[ ] Trait for Model files - to use `can` method.
+- [ ] Policy generator command
+
+- [ ] Vendor publisher
+
+- [ ] Trait for Model files - to use `can` method.
