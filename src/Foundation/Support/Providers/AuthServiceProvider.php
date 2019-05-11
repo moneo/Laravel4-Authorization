@@ -38,6 +38,18 @@ class AuthServiceProvider extends ServiceProvider
     }
 
     /**
+     * @return Model|null
+     */
+    public function getUser()
+    {
+        if (class_exists(\Sentry::class)) {
+            return \Sentry::check() ? \Sentry::getUser() : null;
+        }
+
+        return \Auth::check() ? \Auth::user() : null;
+    }
+
+    /**
      * Register the service provider.
      *
      * @return void
